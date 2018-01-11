@@ -10,6 +10,7 @@ function johnLennonFacts(array) {
   var i = 0;
   while (i < array.length) {
     array[i] = `${array[i]}!!!`
+<<<<<<< HEAD
     ++i
   }
   return array
@@ -23,3 +24,9 @@ function iLoveTheBeatles(number) {
   } while (number < 15);
   return x
 }
+=======
+    ++i 
+  }
+  return array
+}
+>>>>>>> a273a36f98ffce76508ec6381c4b587f4bff7ad9
